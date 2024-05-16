@@ -19,7 +19,8 @@ public class TaskList {
     public List<Task> taskList = new ArrayList<>();
 
     public Task getTaskById(String taskId) {
-        return this.taskList.stream().filter(task -> task.getId().equals(taskId) && !task.getDeleted()).findFirst().orElse(null).clone();
+        Task searchingTask = this.taskList.stream().filter(task -> task.getId().equals(taskId) && !task.getDeleted()).findFirst().orElse(null);
+        return searchingTask != null ? searchingTask.clone() : null;
     }
 
     public List<Task> getListCommand(Request command) {
