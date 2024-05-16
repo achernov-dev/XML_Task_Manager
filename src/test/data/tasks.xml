@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ToDoList>
+    <task id="id1" caption="testRun1" isDeleted="false">
+        <description>testDescr1</description>
+        <priority>1</priority>
+        <deadline>2023-01-12T00:00:00+03:00</deadline>
+        <status>new</status>
+    </task>
+    <task id="id2" caption="testRun2" isDeleted="false">
+        <description>testDescr2</description>
+        <priority>1</priority>
+        <deadline>2023-02-12T00:00:00+03:00</deadline>
+        <status>new</status>
+    </task>
+    <task id="id3" caption="testRun3" isDeleted="false">
+        <description>testDescr3</description>
+        <priority>1</priority>
+        <deadline>2023-03-12T00:00:00+03:00</deadline>
+        <status>new</status>
+    </task>
+</ToDoList>

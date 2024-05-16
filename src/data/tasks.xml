@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ToDoList>
+    <task id="id1" caption="Звонок с клиентом" isDeleted="false">
+        <description>Позвонить и обсудить</description>
+        <priority>7</priority>
+        <deadline>2025-05-06T00:00:00+03:00</deadline>
+        <status>new</status>
+    </task>
+    <task id="id2" caption="Написать письмо" isDeleted="false">
+        <description>Отправить файл коллеге</description>
+        <priority>4</priority>
+        <deadline>2024-11-07T00:00:00+03:00</deadline>
+        <status>new</status>
+    </task>
+    <task id="id3" caption="Поменять обшивку" isDeleted="false">
+        <description></description>
+        <priority>5</priority>
+        <deadline>2024-12-06T00:00:00+03:00</deadline>
+        <status>new</status>
+    </task>
+    <task id="id4" caption="Починить замок" isDeleted="false">
+        <description>Он сломался</description>
+        <priority>3</priority>
+        <status>new</status>
+    </task>
+    <task id="id5" caption="Протестировать модуль" isDeleted="false">
+        <description>Подробности у Дмитрия</description>
+        <priority>10</priority>
+        <deadline>2025-07-05T00:00:00+03:00</deadline>
+        <status>new</status>
+    </task>
+    <task id="id6" caption="Сходить на рыбалку" isDeleted="false">
+        <description>Почему бы и нет</description>
+        <priority>9</priority>
+        <status>done</status>
+        <completionDate>2024-05-16T15:41:39.725+03:00</completionDate>
+    </task>
+    <task id="id7" caption="Подготовить транспорт" isDeleted="false">
+        <description>Для поездки за город</description>
+        <priority>8</priority>
+        <deadline>2026-01-05T00:00:00+03:00</deadline>
+        <status>done</status>
+        <completionDate>2024-05-16T15:41:47.671+03:00</completionDate>
+    </task>
+    <task id="id8" caption="Наколоть дрова" isDeleted="false">
+        <description>Чтобы растопить печь</description>
+        <priority>5</priority>
+        <deadline>2025-10-05T00:00:00+03:00</deadline>
+        <status>in_progress</status>
+    </task>
+    <task id="id9" caption="Заточить топор" isDeleted="false">
+        <description>Чтобы колоть дрова</description>
+        <deadline>2192-06-05T00:00:00+03:00</deadline>
+        <status>in_progress</status>
+    </task>
+    <task id="id10" caption="Поменять лампочку" isDeleted="false">
+        <description>Без света темно</description>
+        <priority>3</priority>
+        <deadline>2025-08-05T00:00:00+03:00</deadline>
+        <status>new</status>
+    </task>
+    <task id="id11" caption="Удалить задачу в менеджере" isDeleted="true">
+        <description>Чтобы была удаленная задача</description>
+        <priority>1</priority>
+        <deadline>2025-04-05T00:00:00+03:00</deadline>
+        <status>done</status>
+        <completionDate>2024-05-16T15:40:20.229+03:00</completionDate>
+    </task>
+</ToDoList>
